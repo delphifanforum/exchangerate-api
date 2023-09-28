@@ -45,8 +45,8 @@ try
   begin
     // Parse and use the exchange rates as needed
     // For example:
-    EURRate := ExchangeRates.Values['EUR'].Value;
-    Memo1.Lines.Add('EUR Exchange Rate: ' + EURRate);
+    USDRate := ExchangeRates.Values['USD'].Value;
+    Memo1.Lines.Add('EUR Exchange Rate: ' + USDRate);
     
     // Add more currencies and exchange rate fetching as needed
 
